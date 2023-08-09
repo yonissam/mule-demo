@@ -14,7 +14,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<app.runtime>4.4.0-20230616</app.runtime>
-		<mule.maven.plugin.version>3.8.6</mule.maven.plugin.version>
+		<mule.maven.plugin.version>3.8.1</mule.maven.plugin.version>
 	</properties>
 
 	<build>
@@ -37,12 +37,12 @@
 						<targetType>server</targetType>
 						<username>yoniss</username>
 						<password>YoniGeo2024!</password>
+						<environment>Sandbox</environment>
 						<properties>
 							<anypoint.platform.base_uri>https://anypoint.mulesoft.com</anypoint.platform.base_uri>
 							<anypoint.platform.analytics_base_uri>https://analytics-ingest.anypoint.mulesoft.com</anypoint.platform.analytics_base_uri>
 						</properties>
 					</armDeployment>
-					<classifier>mule-application</classifier>
 				</configuration>
 			</plugin>
 		</plugins>
